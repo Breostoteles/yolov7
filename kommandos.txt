@@ -1,0 +1,2 @@
+python train.py --workers 8 --device 0 --batch-size 10 --data imageBlending/data.yaml --img 640 640 --cfg imageBlending/model.yaml --weights imageBlending/yolov7_training.pt --name yolov7-custom --hyp imageBlending/hyp.yaml --epochs 500
+python detect.py --weights C:\Users\Theo\Documents\GitHub\yolov7\runs\train\120-250\weights\best.pt --conf 0.10 --img-size 512 --source C:\Users\Theo\Documents\GitHub\yolov7\videoTEST3.mp4

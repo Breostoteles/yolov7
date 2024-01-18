@@ -7,6 +7,7 @@ from threading import Thread
 import numpy as np
 import torch
 import yaml
+import pycocotools
 from tqdm import tqdm
 
 from models.experimental import attempt_load
